@@ -1,0 +1,25 @@
+{
+  "name": "baical",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "sass --watch css/style.scss:css/style.css",
+    "build": "node-sass -w --include-path scss css/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andreew19/web-development.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andreew19/web-development/issues"
+  },
+  "homepage": "https://github.com/Andreew19/web-development#readme",
+  "dependencies": {
+    "node-sass": "^4.13.0",
+    "nodemon": "^2.0.2"
+  }
+}

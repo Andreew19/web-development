@@ -1,0 +1,142 @@
+@import "../scss/header.sass";
+
+body{
+  margin: 0;
+  padding: 0;
+  background: #eaeaea;
+}
+.inner{
+  margin: 0 auto;
+  max-width: 1100px;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.logo{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 50px;
+  width: 166px;
+  height: 68px;
+}
+.location{
+  margin-right: 100px;
+}
+.location-ru{
+  height: 18px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: 0px;
+  color: #aaaaaa;
+}
+.location-ru .russia{
+  width: 54px;
+  height: 13px;
+  font-family: 'Montserrat';
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+.cure-us-dollar{
+  height: 18px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: 0px;
+  color: #aaaaaa;
+}
+.us-dollar{
+  width: 54px;
+  height: 13px;
+  font-family: 'Montserrat';
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+.sign-in{
+  margin-right: 60px;
+  width: 123px;
+  height: 34px;
+  border-radius: 4px;
+  border: solid 1px #7e7e7e;
+  background: none;
+  font-family: 'Montserrat';
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.currence-us{
+  margin-left: 100px;
+}
+.cart{
+  margin-left: 60px;
+  margin-right: 20px;
+  width: 110px;
+  height: 34px;
+  border-radius: 4px;
+  border: solid 1px #8ad592;
+  background: none;
+  color: #8ad592;
+  font-family: 'Montserrat';
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.nav-bar{
+  height: 50px;
+  background-color: #ffffff;
+  display: flex;
+}
+.nav-wrapper{
+  display: flex;
+  margin-left: 405px;
+}
+.menu{
+  display: flex;
+}
+.list-menu{
+  margin-right: 50px;
+  width: 43px;
+  height: 16px;
+  font-family: 'Montserrat';
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+.link-menu{
+  color: #3c3d41;
+}
+.search{
+  margin-left: 120px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
