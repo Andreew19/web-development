@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "sass --watch css/style.scss:css/style.css",
-    "build": "node-sass -w --include-path scss css/style.scss css/style.css"
+    "dev": "parcel index.html"
   },
   "repository": {
     "type": "git",
@@ -19,7 +18,9 @@
   },
   "homepage": "https://github.com/Andreew19/web-development#readme",
   "dependencies": {
-    "node-sass": "^4.13.0",
-    "nodemon": "^2.0.2"
+    "parcel": "^1.12.4"
+  },
+  "devDependencies": {
+    "sass": "^1.24.4"
   }
 }
