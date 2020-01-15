@@ -1,3 +1,3 @@
-# ndrew-improove-css-skills-project
+# Andrew-improove-css-skills-project
 
 * Образовательный проект
