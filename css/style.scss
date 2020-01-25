@@ -90,6 +90,8 @@ li{
   margin-left: 100px;
 }
 .cart{
+  display: flex;
+  align-items: center;
   margin-left: 60px;
   margin-right: 20px;
   width: 110px;
@@ -106,6 +108,7 @@ li{
   line-height: normal;
   letter-spacing: 2px;
   cursor: pointer;
+  transition: 0.3s;
 }
 .nav-bar{
   height: 50px;
@@ -114,15 +117,14 @@ li{
 }
 .nav-wrapper{
   display: flex;
-  margin-left: 405px;
+  margin-left: 305px;
 }
 .menu{
   display: flex;
 }
 .list-menu{
-  margin-right: 50px;
-  width: 43px;
-  height: 16px;
+  display: flex;
+  margin-left: 36px;
   font-family: 'Montserrat';
   font-size: 13px;
   font-weight: bold;
