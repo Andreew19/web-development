@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel index.html"
+    "dev": "parcel index.html",
+    "lint": "npx stylelint '**/*.sass'"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,8 @@
     "parcel": "^1.12.4"
   },
   "devDependencies": {
-    "sass": "^1.24.4"
+    "sass": "^1.24.4",
+    "stylelint": "^13.1.0",
+    "stylelint-config-standard": "^20.0.0"
   }
 }
